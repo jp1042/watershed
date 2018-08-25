@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WaterShed</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.slim.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/websocket.js"></script>
+    <script type="text/javascript" src="Js/magicscroll.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="Css/magicscroll.css" />
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="title">Watershed Showcase</div>
+    </nav>
+    <div id="mainScroll" class="MagicScroll" data-options="autoplay: 2000; step: 1; mode: carousel; height: 300px;">
+        <span id="cognition"  class="cognitionText">cognition</span>
+        <img id="dangerZone" src="assets/images/dangerzone.png" />
+        <span id="lightSynth" class="lightSynthText">light synth_</span>
+        <img id="partyVibes" class="partyVibesImage" src="assets/images/partyvibes.png"/>
+        <video id="dzVideo" width="500" playsinline="true" webkit-playsinline="true" loop autoplay>
+            <source src="assets/images/DZIII_v2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="item">
+        <div class="content">
+            <div class="item-title">
+                about
+            </div>
+            <div class="item-paragraph">
+                Some introductory text about me and things 
+            </div>
+            <img class="item-image" src=""/>
+        </div>
+    </div>
+    <div class="item" data-aos="fade-down">
+        <div class="content">
+            <div class="item-title">
+                The Projects
+            </div>
+            <div class="item-paragraph">
+                Some text about the projects
+            </div>
+            <img class="item-image" src=""/>
+        </div>
+    </div>
+    <div class="item" data-aos="fade-right">
+
+    </div>
+    <div class="item" data-aos="fade-left">
+
+    </div>
+    <div class="item" data-aos="zoom-in">5</div>
+    <div class="item" data-aos="zoom-out">6</div>
+    <div class="item" data-aos="slide-up">7</div>
+    <div class="item" data-aos="flip-up">8</div>
+    <div class="item" data-aos="flip-down">9</div>
+    <div class="item" data-aos="flip-right">10</div>
+    <div class="item" data-aos="flip-left">11</div>
+    <script type="text/javascript" src="Js/main.js"></script>
+</body>
+
+</html>
